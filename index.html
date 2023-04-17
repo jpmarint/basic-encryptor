@@ -18,7 +18,7 @@
     <div class="main-body">
         <div class="left-side">
             <div class="header">
-                <img src="./elements/logo.png" alt="">
+                <img src="./elements/logo.png" alt="Encryptor logo">
                 <h1 class="title">
                     <span id="challenge-text">Challenge 1 -</span>
                     Encryptor
@@ -36,23 +36,19 @@
             </div>
         </div>
         <div class="messages">
-            <div class="result">
-                <p id="resultMessage">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae saepe nulla. Error delectus similique distinctio iusto labore ea quia?</p>
+            <div class="no-messages">
+                <img src="./elements/Muñeco.png" alt="muñeco pensando" class="character">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
-            <!-- <div class="message-history">
-                <h2>Message history</h2>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cumque?...</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cumque?...</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cumque?...</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cumque?...</li>
-                </ul>
-            </div> -->
+            <div class="result">
+                <p id="resultMessage"></p>
+            </div>
             <div class="copy-button">
                 <button id="copy-last">Copiar último mensaje</button>
             </div>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>

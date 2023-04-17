@@ -45,7 +45,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    max-width: 1400px;
+    max-width: 1200px;
 }
 
 /* Left side */
@@ -179,6 +179,29 @@ i{
     border-radius: var(--button-radius-24px);
     margin: 1rem 2rem;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    max-width: 400px;
+}
+
+.no-messages{
+    margin: auto auto;
+    text-align: center;
+}
+
+.no-messages h2{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--grey-500);
+    margin: 1rem 1rem;
+}
+
+.no-messages p{
+    color: var(--grey-400);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 1rem;
+}
+.no-messages img{
+    width: 84%;
 }
 
 .result{
